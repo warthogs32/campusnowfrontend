@@ -1,0 +1,25 @@
+﻿<Window x:Class="campusnowfrontend.Views.LoginView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:campusnowfrontend.Views"
+        mc:Ignorable="d"
+        Title="LoginView" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Login" Grid.Column="0" Grid.Row="0"/>
+        <TextBox Grid.Column="0" Grid.Row="1" Height="20" Text="username"/>
+        <TextBox Grid.Column="0" Grid.Row="2" Height="20" Text="password"/>
+        <Button Grid.Column="0" Grid.Row="3" HorizontalAlignment="Left" Height="20" RenderTransformOrigin="1.643,0.394" Margin="10,10,0,1">login</Button>
+
+    </Grid>
+</Window>
